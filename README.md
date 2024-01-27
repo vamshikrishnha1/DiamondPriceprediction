@@ -4,9 +4,32 @@
 
 ![Diamond](https://us.123rf.com/450wm/naphotos/naphotos1201/naphotos120100082/11825706-blue-diamond.jpg)
 
-This project focuses on predicting the price of diamonds based on various attributes. The goal is to build a machine learning model that accurately estimates the price of a diamond given its features, which can be valuable for both the diamond industry and potential buyers.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Task Performed](#Task-Performed)
+- [Methodology](#methodology)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Feature Engineering](#feature-engineering)
+- [Modeling](#modeling)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Run Locally](#Run-Locally)
+- [Contributing](#contributing)
+
+
+## Introduction
+
+Diamonds are valued based on several attributes such as carat weight, cut, color, and clarity. This project aims to create a model that predicts diamond prices, allowing sellers and buyers to make informed decisions.
+
+## Dataset
+
+The dataset used for this project is sourced from kaggle.The dataset was preprocessed to handle outliers, missing values, and categorical variables.
+
 There are 10 independent variables (including `id`):
-**The dataset** The goal is to predict `price` of given diamond (Regression Analysis).
+* The goal is to predict `price` of given diamond (Regression Analysis).
 * `id` : unique identifier of each diamond
 * `carat` : Carat (ct.) refers to the unique unit of weight measurement used exclusively to weigh gemstones and diamonds.
 * `cut` : Quality of Diamond Cut
@@ -21,23 +44,7 @@ There are 10 independent variables (including `id`):
 Target variable:
 * `price`: Price of the given Diamond.
 
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Methodology](#methodology)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Feature Engineering](#feature-engineering)
-- [Modeling](#modeling)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-
-### Task Performed:
+## Task Performed:
 1. Data Cleaning
 2. Exploratory Data Analysis
 3. Data Preprocessing and feature engineering
@@ -45,29 +52,6 @@ Target variable:
 5. Pickelizing model
 6. Creating flask app for model
 7. Deploying it in AWS 
-
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Methodology](#methodology)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Feature Engineering](#feature-engineering)
-- [Modeling](#modeling)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [Run Locally](#Run Locally)
-- [Contributing](#contributing)
-
-
-## Introduction
-
-Diamonds are valued based on several attributes such as carat weight, cut, color, and clarity. This project aims to create a model that predicts diamond prices, allowing sellers and buyers to make informed decisions.
-
-## Dataset
-
-The dataset used for this project is sourced from kaggle. It contains information about various diamond attributes, including carat weight, cut, color, clarity, and dimensions. The dataset was preprocessed to handle outliers, missing values, and categorical variables.
 
 ## Methodology
 
